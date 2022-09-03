@@ -35,6 +35,16 @@ public class full_control {
 	public String check_leave(@ModelAttribute User User ,
 			Model model)
 	{
+		
+		
+		System.out.println(User);
+	
+		this.Userservice.Creatuser(User);
+		model.addAttribute("User",User);
+		
+		
+		
+		return "check_leave";
 	}
 	@RequestMapping(path ="check_leave2" , method= RequestMethod.POST)
 	public String check_leave_get(@RequestParam (name="e_ID_get") int e_ID_get,
@@ -46,7 +56,20 @@ public class full_control {
 		)
 	{
 		
+		System.out.println(e_ID_get);
+	User_get User_get=new User_get();
+	User_get.setE_ID_del(e_ID_del);
+	User_get.setE_ID_up(e_ID_up);
+	User_get.setE_ID_get(e_ID_get);
+	User_get.setFlx_lv_up(flx_lv_up);
+	User_get.setSik_lv_up(sik_lv_up);
+	User_get.setErn_lv_up(ern_lv_up);
+	
+	
 		
+	System.out.println(User_get);
+		
+		return "check_leave2";
 	}
 	
 	/*
