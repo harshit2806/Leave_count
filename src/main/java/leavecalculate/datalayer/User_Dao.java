@@ -12,4 +12,15 @@ import leavecalculate.model.User;
 public class User_Dao {
 
 	
+	@Autowired
+	
+	private HibernateTemplate hibernatetemp;
+	
+	@Transactional
+	public  int Saveuser(User User) {
+		int id=(Integer) this.hibernatetemp.save(User);
+		return id;
+	}
+	
+	
 }
