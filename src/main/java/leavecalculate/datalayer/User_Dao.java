@@ -22,5 +22,9 @@ public class User_Dao {
 		return id;
 	}
 	
-	
+	public User getUser(int e_ID)
+	{
+		User User=this.hibernatetemp.get(User.class, e_ID);
+		return User;
+	}
 }
