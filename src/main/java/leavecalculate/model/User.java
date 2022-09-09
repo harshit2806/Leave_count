@@ -41,7 +41,11 @@ public class User {
  private int ern_lv;
 	@Column
  private int sik_lv;
-
+@Override
+public String toString() {
+	return "User [e_name=" + e_name + ", e_ID=" + e_ID + ", flx_lv=" + flx_lv + ", ern_lv=" + ern_lv + ", sik_lv="
+			+ sik_lv + "]";
+}
 public String getE_name() {
 	return e_name;
 }
