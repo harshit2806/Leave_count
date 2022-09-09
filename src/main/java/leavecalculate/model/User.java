@@ -41,5 +41,35 @@ public class User {
  private int ern_lv;
 	@Column
  private int sik_lv;
-@
+
+public String getE_name() {
+	return e_name;
+}
+public void setE_name(String e_name) {
+	this.e_name = e_name;
+}
+public int getE_ID() {
+	return e_ID;
+}
+public void setE_ID(int e_ID) {
+	this.e_ID = e_ID;
+}
+public int getFlx_lv() {
+	return flx_lv;
+}
+public void setFlx_lv(int flx_lv) {
+	this.flx_lv = flx_lv;
+}
+public int getErn_lv() {
+	return ern_lv;
+}
+public void setErn_lv(int ern_lv) {
+	this.ern_lv = ern_lv;
+}
+public int getSik_lv() {
+	return sik_lv;
+}
+public void setSik_lv(int sik_lv) {
+	this.sik_lv = sik_lv;
+}
 }
