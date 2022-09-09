@@ -10,6 +10,19 @@ import javax.persistence.Table;
 @Entity
 @Table (name="leave_table_1")
 
+/*
+leave_table_1 is temp table use leave_table once ready
+ +--------+-------------+------+-----+---------+-------+
+| Field  | Type        | Null | Key | Default | Extra |
++--------+-------------+------+-----+---------+-------+
+| Id     | int(11)     | YES  |     | NULL    |       |
+| e_name | varchar(30) | YES  |     | NULL    |       |
+| e_ID   | int(11)     | NO   | PRI | NULL    |       |
+| flx_lv | int(11)     | YES  |     | NULL    |       |
+| ern_lv | int(11)     | YES  |     | NULL    |       |
+| sik_lv | int(11)     | YES  |     | NULL    |       |
++--------+-------------+------+-----+---------+-------+
+ */
 public class User {
 	
 	
@@ -28,6 +41,5 @@ public class User {
  private int ern_lv;
 	@Column
  private int sik_lv;
-
-
+@
 }
