@@ -62,5 +62,9 @@ public class User_get {
 		this.e_ID_del = e_ID_del;
 	}
 
-	
+	@Override
+	public String toString() {
+		return "User_get [e_ID_get=" + e_ID_get + ", e_ID_up=" + e_ID_up + ", flx_lv_up=" + flx_lv_up + ", ern_lv_up="
+				+ ern_lv_up + ", sik_lv_up=" + sik_lv_up + ", e_ID_del=" + e_ID_del + "]";
+	}
 }
