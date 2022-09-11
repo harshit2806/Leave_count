@@ -42,5 +42,25 @@ public class User_get {
 		return ern_lv_up;
 	}
 
+	public void setErn_lv_up(int ern_lv_up) {
+		this.ern_lv_up = ern_lv_up;
+	}
 
+	public int getSik_lv_up() {
+		return sik_lv_up;
+	}
+
+	public void setSik_lv_up(int sik_lv_up) {
+		this.sik_lv_up = sik_lv_up;
+	}
+
+	public int getE_ID_del() {
+		return e_ID_del;
+	}
+
+	public void setE_ID_del(int e_ID_del) {
+		this.e_ID_del = e_ID_del;
+	}
+
+	
 }
