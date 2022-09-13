@@ -16,5 +16,12 @@ public class Userservice {
 	{
 		return this.User_Dao.Saveuser(User);	
 	}
-
+/*	
+	@Autowired
+	private User_get User_get;
+	public int Checkuser(User_get User_get )
+	{
+		return this.User_Dao.getUser(User_get.getE_ID_get());	
+	}
+	*/
 }
