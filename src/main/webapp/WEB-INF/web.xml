@@ -8,5 +8,8 @@
   <servlet-name>main_dis_servlet</servlet-name>
   <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
   </servlet>
-
+  <servlet-mapping>
+  <servlet-name>main_dis_servlet</servlet-name>
+  <url-pattern>/</url-pattern>
+  </servlet-mapping>
 </web-app>
