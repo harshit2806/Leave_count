@@ -106,7 +106,45 @@ flex-basis: 50%;
         </div>
  </div>
  </div>
-  
+  <div class ="low_row">
+ <div class="upd_val">
+  <h3>Update leave for Employee ID</h3>
+    <div class="form-group_row">
+            <label for="emp_id"   class="col-sm-6 col-form-label">
+              Employee ID
+            </label>
+            <div class="col-sm-61">
+              <input type="text"  pattern="\d*"  class="form-control" id="emp_id" placeholder="Enter Emp ID" minlength = "5" maxlength = "5" name="e_ID_up">
+            </div>
+          </div>
+           <div class="form-group row">
+            <label for="flexi" class="col-sm-6 col-form-label">
+              Flexi leave
+            </label>
+            <div class="col-sm-6">
+              <input type="text" pattern="\d*"  class="form-control" id="flx_lv" placeholder="FL" maxlength = "2" name="flx_lv_up">
+            </div>
+          </div>
+           <div class="form-group row">
+            <label for="earned" class="col-sm-6 col-form-label">
+             Earned leave
+            </label>
+            <div class="col-sm-6">
+              <input type="text" pattern="\d*"  class="form-control" id="ernd_lv" placeholder="EL" maxlength = "2" name="ern_lv_up" >
+            </div>
+          </div>
+         <div class="form-group row">
+            <label for="sick" class="col-sm-6 col-form-label">
+             Sick leave
+            </label>
+            <div class="col-sm-6">
+              <input type="text" pattern="\d*"  class="form-control" id="sick_lv" placeholder="SL" maxlength = "2" name="sik_lv_up">
+            </div>
+          </div>
+          <div class="modal-footer_1">
+          
+          <button type="submit" class="btn btn-primary">Update</button>
+        </div>
  </div>
  <div class="del_val">
   <h3>Delete leave for Employee ID</h3>
