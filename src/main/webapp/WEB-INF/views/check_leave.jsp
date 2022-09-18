@@ -87,6 +87,42 @@ flex-basis: 50%;
 <h5>Flexi Leave   :-${user.flx_lv}</h5>
 <h5>Earned Leave  :-${user.ern_lv}</h5>
 <h5>Sick Leave    :-${user.sik_lv}</h5> 
- 
+ </div>
+ <!-- 
+ <div class="ser_val">
+
+  <h3>Check leave for Employee ID</h3>
+    <div class="form-group row_1">
+            <label for="emp_id"   class="col-sm-6 col-form-label">
+              Employee ID
+            </label>
+            <div class="col-sm-6">
+              <input type="text"  pattern="\d*"  class="form-control" id="emp_id" placeholder="Enter Emp ID" minlength = "5" maxlength = "5" name="e_ID_get">
+            </div>
+          </div>
+          <div class="modal-footer">
+          
+          <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+ </div>
+ </div>
+  
+ </div>
+ <div class="del_val">
+  <h3>Delete leave for Employee ID</h3>
+    <div class="form-group_row">
+            <label for="emp_id"   class="col-sm-6 col-form-label">
+              Employee ID
+            </label>
+            <div class="col-sm-6">
+              <input type="text"  pattern="\d*"  class="form-control" id="emp_id" placeholder="Enter Emp ID" minlength = "5" maxlength = "5" name="e_ID_del">
+            </div>
+          </div>
+          <div class="modal-footer_2">
+          
+          <button type="submit" class="btn btn-primary">Delete</button>
+        </div>
+ </div>  -->
+ </div> 
   </form>
  </div>
