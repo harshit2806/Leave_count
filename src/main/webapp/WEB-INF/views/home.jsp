@@ -14,7 +14,43 @@ function onSubmitForm(e) {
   $('#message').show();
 }
 </script>
+<style>
+body {
+  background-color: #C0C0C0;
+}
 
+#btnStart {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#message {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  display: none;
+}
+
+.whole_str
+{border: 5px solid #C0C0C0;
+text-align: center;
+margin-top: 10%;
+}
+.modal-footer
+{margin-top: 20px;
+}
+
+</style>
+  
 <div class="whole_str" 
  >
 
