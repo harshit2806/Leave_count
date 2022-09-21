@@ -3,13 +3,11 @@
 <html lang="en">
 
 
-<script >
-var form = document.getElementById("formAwesome");
-form.addEventListener("submit", onSubmitForm);
 
 
-
-
+  
+<div class="whole_str" 
+ >
 
 <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
@@ -76,4 +74,4 @@ form.addEventListener("submit", onSubmitForm);
     </div>
   </div>
 </div>
-
+</div>
